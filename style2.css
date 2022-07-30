@@ -1,0 +1,98 @@
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    overflow: hidden;
+    float: right;
+}
+
+.details{
+    padding: 14px 24px;
+    margin: 100px 100px;
+    border: solid white 2px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0.9px 2px 24px rgb(164, 162, 162);
+    width: auto;
+}
+
+input{
+    border: solid rgb(164, 162, 162)  0.3px;
+    border-radius: 5px;
+    box-shadow: 0px 0.9px 5px rgb(164, 162, 162);
+    outline:  blue;
+    padding: 16px;
+    margin: 5px;
+    width: 10cm;
+    color: #0165e1;
+}
+
+input[text]{
+    border: solid #0165e1;
+    color: #0165e1;
+}
+
+.log{
+    width: 100%;
+    border: none;
+    border-width: 100%;
+    background-color: #0165e1;
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px lightblue;
+    cursor: pointer;
+}
+
+
+.create{
+    width: 50%;
+    border: none;
+    border-width: 100%;
+    background-color: rgb(42, 164, 42);
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+a{
+    font-size: 12px;
+    margin: 57px;
+    text-decoration: none;
+    margin: 100px;
+    padding: 13px;
+    color: #0165e1;
+}
+
+p{
+    font-size: 12px;
+    margin: 47px;
+    text-decoration: none;
+    margin: 90px;
+    padding: 3px;
+}
+
+header{
+    overflow: hidden;
+    float: left;
+    width: 20%;
+    margin: 90px;
+    padding: 30px;
+}
+
+.below{
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    margin: 2px;
+    padding: 0px;
+    font-size: 25px;
+}
+
+hr{
+    border: solid 0.003cm rgb(164, 162, 162);
+}
